@@ -1,0 +1,602 @@
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+
+body
+{
+ margin:0px;   
+ background-color:#f4f4f4;  
+  font-family:'Droid Sans', Verdana;  
+  background-image:url(/images/system/bg.png);
+  background-repeat:repeat-x;
+}
+
+
+#header
+{
+ height:130px;
+ background-color:#0c2151;   
+  border-bottom: solid 2px #c0c0c0;
+  margin-bottom:15px;
+  width:100%
+}
+
+#logo
+{
+ position:absolute;
+  padding-top:20px;  
+ left:50%;
+ margin-left:-480px;    
+ width:1050px;
+}
+
+
+
+#onlineimg
+{
+    position:absolute;
+  left:50%;
+   top:90px; 
+ margin-left:-480px;
+ z-index:100; 
+
+}
+
+#socialLinks
+{
+   position:absolute;
+width:250px;
+   left:50%;  
+     top:85px; 
+ margin-left:215px; 
+}
+
+#contentwrapper
+{
+   /* position:absolute;
+ left:50%;
+ margin-left:-480px; */ 
+ width:1190px; 
+ margin-left:auto;
+ margin-right:auto;
+ background-color:#f4f4f4;
+}
+
+
+#leftcol
+{
+     float:left;
+ width:960px;  
+ overflow:hidden;  
+}
+
+
+#rtcol
+{
+    float:right;
+    width:210px;
+    margin-left:20px;
+    
+    
+}
+
+#leftcol2
+{
+     float:left;
+ width:600px;  
+ overflow:hidden;  
+}
+
+
+#rtcol2
+{
+    float:left;
+    width:350px;
+    margin-left:20px;
+    
+    
+}
+
+#footer
+{
+  /* position:relative;
+   top:3000px;*/
+   margin:25px 0px 0px 0px;
+   width:100%;
+ height:120px;
+background-color:#0c2151;
+padding-top:50px;
+text-align:center;  
+color:#eeeeee;
+ font-size:14px;
+}
+
+.whitelink
+{
+
+color:#eeeeee;
+ font-size:14px;
+}
+
+.whitelink:visited
+{
+
+color:#eeeeee;
+ font-size:14px;
+}
+
+#mainbanner
+{
+ border-top: solid 1px #c0c0c0;
+  border-bottom: solid 1px #c0c0c0;   
+  padding: 10px 0px 10px 0px;
+  margin-bottom:15px;
+}
+
+#sidebar
+{
+    margin-top:7px;
+ font-size:10px;
+  
+    
+}
+
+#sidebar-top
+{
+  height:17px;
+  background-image:url('/images/system/sidebar_top.png');  
+  background-repeat:no-repeat;  
+}
+
+#sidebar-center
+{
+ 
+  background-image:url('/images/system/sidebar_center.png');  
+   background-repeat:repeat-y;  
+    padding:3px 25px 5px 15px; 
+    overflow:hidden;
+}
+
+#sidebar-bottom
+{
+  height:20px;
+  background-image:url('/images/system/sidebar_bottom.png');  
+   background-repeat:no-repeat;  
+}
+
+#langselect
+{
+ margin-bottom:55px;   
+}
+
+.divDownload
+
+{
+	background-color:#eeeeee;
+	padding:15px;
+}
+
+.maintext
+{
+ margin-left:0px;   
+ line-height:22px;
+ padding-right:25px;
+}
+
+
+#welcome
+{
+ margin-bottom:55px;   
+}
+
+
+.sectioncolumn
+{
+ float:left;
+ width:310px;
+    
+}
+
+
+.sectioncolumn.2ndcolumn
+{
+ 
+ width:295px;
+    
+}
+
+.sectioncolumn.lastcolumn
+{
+    float:right;
+ width:300px;   
+}
+
+.sectioncolumn.columnmargin
+{
+    
+  margin-right:40px;  
+}
+
+.sectionhead
+{
+   float:left;
+    padding-top:10px;
+    margin-left:10px;
+    padding-bottom:3px;
+    border-bottom:solid 6px #ead52e   ;
+ 
+    font-family:'Droid Sans', Verdana;  
+
+}
+
+
+.texthead
+{
+    padding-top:10px;
+    padding-bottom:3px;
+    border-bottom:solid 6px #ead52e   ;
+ 
+    font-family:'Droid Sans', Verdana;  
+    font-size:25px;
+    color:#505050;
+
+}
+
+.sectionhead.headextension
+{
+ padding-right:100px;   
+}
+
+.sectionhead.fullwidth
+{
+ 
+ width:960px;   
+ margin-bottom:25px;
+ margin-top:25px;
+}
+
+.sectionhead.fullwidth.small
+{
+ 
+ width:960px;   
+ margin-bottom:25px;
+ margin-top:25px;
+  border-bottom:solid 2px #ead52e 
+}
+
+ 
+ 
+.sectionheadicon
+{
+ float:left;   
+ margin-right:15px;   
+}
+
+.sectionheadtext
+{
+ float:left;   
+color:#0d3059;
+
+ font-size:16px;
+ padding-top:5px; 
+ padding-right:20px; 
+
+}
+
+.sectionheadtext.areaheading
+{
+ color:#0d3059;
+ font-family: 'Droid Sans',Verdana;
+ font-size:25px;
+ color:#505050;
+
+ 
+}
+
+.sectionheadtext.areaheading.small
+{
+ color:#0d3059;
+ font-size:14px;
+ color:#505050;
+ font-weight:bold;   
+   
+}
+
+.sectionheadtext.yoffset
+{
+    
+ padding-top:12px;   
+}
+
+
+.sectioncontent
+{
+clear:both;    
+ padding-top:20px;   
+
+ font-size:13px;
+  color:#606060;
+  line-height:1.75;
+}
+
+.extitle
+{
+font-size:14px;
+color:#707070;
+ padding-left:5px;   
+
+}
+
+.extitle.horiz
+{
+    padding-left:0px;
+}
+
+.extitle a
+{
+ color:#707070;
+ text-decoration:none;   
+
+}
+
+.extitle a:hover
+{
+ color:#336699;
+
+ border-bottom:dotted 1px #336699;  
+}
+
+
+
+.langlist
+{
+
+ color:#606060;
+ font-size:17px;
+ margin-right:40px;   
+ width:100%;   
+}
+
+.langlist a
+{
+  
+ color:#606060;
+text-decoration:none;  
+    
+}
+
+.smallcheck
+{
+ float:left;margin-right:10px;margin-top:0px;   
+    
+}
+
+#columnimg
+{
+    height:300px;
+    float:right;
+    padding-top:50px;
+}
+
+
+#breadcrumbs
+{
+    margin-top:5px;
+        margin-left:10px;
+ /*float:left;  */
+ font-size:14px; 
+    
+}
+
+.listtoggle
+{
+   font-size:14px;
+   margin-top:15px;   
+   margin-left:10px;
+
+}
+
+#pagetitle
+{
+ /* float:right;  */
+ font-size:35px;
+ font-family:'Droid Sans', Verdana;
+
+  text-align:center;
+   /* text-transform:uppercase;   */
+   margin-bottom:7px;
+    
+}
+
+.keywords
+{
+
+font-size:11px;
+color:#707070;
+ padding-left:25px;   
+ margin-top:25px;   
+}
+
+.titleleft
+{
+ color:#0d3059;   
+}
+
+.titlert
+{
+    
+ color:#ddb70c;  
+}
+
+
+.gamesublist
+{
+    width:100%;
+/* float:left;
+ margin-right:15px;   
+  width:33%;  */
+}
+
+.exblock
+{
+ clear:both;   
+}
+    
+
+.exitemwrapper
+{
+ width:320px; 
+ min-height:25px;
+}
+
+
+.exitemwrapperhoriz
+{
+/* width:310px; 
+ min-height:25px;*/
+ width:177px;
+ margin-right:15px
+}
+
+
+.exitem
+{
+    
+}
+
+
+.flagicon
+{
+text-align:right;
+ margin-right:4px;  
+width:30px;  
+
+}
+
+
+.gamepartlist
+{
+ clear:both;
+ font-size:14px;   
+    
+}
+
+.gameflag
+{
+ float:left;
+ margin-left:10px;
+ margin-right:10px;
+ margin-bottom:5px;
+  box-shadow: -5px 5px 5px #cccccc 
+/* padding:5px; background-color:#e8e8d8;
+ border-radius:7px;*/
+}
+
+.gamelist
+{
+    float:left;
+ margin-top:5px;   
+ width:800px;
+ line-height:150%;
+}
+
+.gamewindow
+{
+ margin-left:15px;width:900px;background-color:#ffffff; border:solid 1px #bbbbbb; padding:20px;margin-top:20px;border-radius:25px;box-shadow: -10px 10px 10px #cccccc;   
+}
+
+.allgames
+{
+
+ font-size:14px;
+ text-align:right;
+ font-weight:bold;
+ margin-top:10px;
+ margin-bottom:15px;  
+}
+
+.allgames a
+{
+   
+    color:#505050;  
+}
+
+a
+{
+ color:#225588; 
+ text-decoration:none;
+   
+}
+
+a:visited
+{
+ color:#225588;   
+}
+
+a:hover
+{
+ color:#996633; 
+ border-bottom:dotted 1px #336699;  
+}
+
+.enabledlink
+{
+   color:#225588; 
+ text-decoration:none;   
+}
+
+.disabledlink 
+{
+ color:#808080;   
+ text-decoration:none;
+}
+
+ .disabledlink:hover 
+{
+    color:#808080;   
+ text-decoration:none; 
+  border-bottom:none;
+}
+
+
+
+#logo a
+{
+ border:none;   
+}
+
+#logo a img
+{
+ border:none;   
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.flag1
+{
+
+ box-shadow: -3px 3px 3px #cccccc;
+}
+
+
+.gameimg1{
+
+
+-moz-box-shadow:inset 0px 2px 8px #333; /* FF3.5+ */
+-webkit-box-shadow:inset 0px 2px 8px #000; /* Saf3.0+*/
+box-shadow:inset 0px 2px 8px #333; /* Opera 10.5, IE 9 */
+
+-moz-border-radius: 30px; /* FF1+ */
+-webkit-border-radius: 30px; /* Saf3-4 */
+border-radius: 30px; /* Opera 10.5, IE 9, Saf5, Chrome */
+
+height:60px;
+width:60px;
+
+}
+
+#questionLabel {
+    font-size:18px;
+}
